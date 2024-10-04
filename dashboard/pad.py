@@ -310,7 +310,7 @@ def plot_sales_per_category(product_analysis):
 # %%
 
 
-def create_payment_map(merged_data, sample_size=7000, map_file='map.html'):
+def create_payment_map(merged_data, sample_size=2000, map_file='map.html'):
     sample_data = merged_data.sample(n=sample_size, random_state=42)
 
     map_center = [sample_data['geolocation_lat'].mean(), sample_data['geolocation_lng'].mean()]
