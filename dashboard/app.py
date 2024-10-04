@@ -22,9 +22,8 @@ st.markdown("""
     penjualan produk per kategori, dan visualisasi geospasial untuk distribusi pelanggan di berbagai wilayah.**
 
     ### Catatan Penting:
-    Mengingat ukuran dataset yang sangat besar, saya tidak dapat memuat dataset secara langsung. Oleh karena itu, 
-    dashboard ini hanya menampilkan hasil analisis dalam bentuk gambar statis yang telah dihasilkan sebelumnya 
-    dari analisis data.
+    Mengingat ukuran data yang besar dan limitasi memori dari streamlit, maka saya memutuskan untuk mengurangi jumlah baris data yang diolah pada streamlit
+    yang nantinya akan divisualisasikan disana. Untuk hasil lengkapnya ada di file ekstensi .ipynb di dalam folder project
 """)
 
 # Membuat selectbox untuk memilih visualisasi
