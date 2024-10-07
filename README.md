@@ -17,7 +17,7 @@ Proyek ini bertujuan untuk menganalisis pola pengeluaran pelanggan berdasarkan m
 ## Instalasi Github
 1. **Clone repositori ini:**
    ```bash
-   git clone <[URL_REPOSITORI](https://github.com/vnnasy/submission.git)>
+   git clone <URL_REPOSITORI](https://github.com/vnnasy/submission.git>
    cd dashboard
    ```
 
