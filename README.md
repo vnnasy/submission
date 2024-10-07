@@ -14,10 +14,10 @@ Proyek ini bertujuan untuk menganalisis pola pengeluaran pelanggan berdasarkan m
 - **Peta Pembayaran:** Menunjukkan distribusi transaksi berdasarkan metode pembayaran di berbagai wilayah.
 
 
-## Instalasi Github
+## Instalasi
 1. **Clone repositori ini:**
    ```bash
-   git clone <URL_REPOSITORI](https://github.com/vnnasy/submission.git>
+   git clone https://github.com/vnnasy/submission.git
    cd dashboard
    ```
 
@@ -26,3 +26,19 @@ Proyek ini bertujuan untuk menganalisis pola pengeluaran pelanggan berdasarkan m
    pip install -r requirements.txt
    streamlit run dashboard.py
    ```
+
+## Setup Environment - Anaconda
+```
+conda create --name pad-ds python=3.10
+conda activate pad-ds
+pip install -r requirements.txt
+```
+
+## Setup Environment - Shell/Terminal
+```
+mkdir pad
+cd pad
+pipenv install
+pipenv shell
+pip install -r requirements.txt
+```
