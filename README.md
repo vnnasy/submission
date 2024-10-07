@@ -1,7 +1,7 @@
 # Proyek Analisis Data: E-Commerce Public Dataset
 
 ## Deskripsi
-Proyek ini bertujuan untuk menganalisis pola pengeluaran pelanggan berdasarkan metode pembayaran, penjualan produk per kategori, dan visualisasi geospasial untuk distribusi pelanggan di berbagai wilayah. Dashboard ini menyajikan hasil analisis dalam bentuk visualisasi yang dihasilkan dari analisis data yang telah dilakukan.
+Proyek ini bertujuan untuk menganalisis pola pengeluaran pelanggan berdasarkan metode pembayaran, penjualan produk per kategori, dan visualisasi geospasial untuk distribusi pelanggan di berbagai wilayah. Dashboard ini menyajikan hasil analisis dalam bentuk gambar statis yang dihasilkan dari analisis data yang telah dilakukan.
 
 ## Penulis
 - **Nama:** Vina Nasyi Atul Lailiyah  
@@ -13,17 +13,16 @@ Proyek ini bertujuan untuk menganalisis pola pengeluaran pelanggan berdasarkan m
 - **Penjualan per Kategori Produk:** Menampilkan total penjualan berdasarkan kategori produk dan metode pembayaran.
 - **Peta Pembayaran:** Menunjukkan distribusi transaksi berdasarkan metode pembayaran di berbagai wilayah.
 
-## Struktur Proyek
 
-pip install -r requirements.txt
-
-## Instalasi
+## Instalasi Github
 1. **Clone repositori ini:**
    ```bash
-   git clone <URL_REPOSITORI>
+   git clone <[URL_REPOSITORI](https://github.com/vnnasy/submission.git)>
    cd dashboard
-   
-## Run steamlit app
-```
-streamlit run dashboard.py
-```
+   ```
+
+2. **Instal dependencies dan jalankan aplikasi Streamlit:**
+   ```bash
+   pip install -r requirements.txt
+   streamlit run dashboard.py
+   ```
